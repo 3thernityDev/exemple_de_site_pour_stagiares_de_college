@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: large;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    background-image: url(https://media.discordapp.net/attachments/419148302999748610/1314126765849051156/DALLE_2024-12-05_11.09.58_-_A_visually_stunning_background_image_for_a_professional_internship_report_website._The_design_should_feature_a_clean_modern_and_minimalist_style_wit.webp?ex=6752a36c&is=675151ec&hm=ee25f485bc9da797d6f43bfa792043752236f55d632f3a5739384d0fc1bceed1&=&format=webp&width=623&height=623);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: larger;
+    border-radius: 1rem;
+    padding: 1rem;
+}
